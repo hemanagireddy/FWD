@@ -1,0 +1,44 @@
+body{
+    margin: 50px;;
+    background:yellow;
+}
+section{
+    background:red;
+    width:100%;
+    overflow:auto;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+li{
+    float:left;
+}
+*{
+    font-family : 'REM', sans-serif;
+    margin:0; padding:0;
+    box-sizing : border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    transition: .2s linear;
+    text-transform: capitalize;
+ }
+
+
+
+
+
+.container{
+    display:grid;
+    grid-template-columns:auto auto auto auto auto;
+    Gap:10px;
+    grid-template-rows:auto auto auto;
+    Gap:1px;
+}
+.i16{
+    <tr style=text-align: left;
+    grid-column:span 3;
+
+}
+
