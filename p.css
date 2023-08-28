@@ -1,0 +1,44 @@
+nav a:hover {
+  color: rgb(157, 0, 255);
+}
+
+
+nav a:active {
+  background-color: yellow;
+}
+
+
+nav a:link {
+  color: blue;
+}
+
+.links a:visited {
+  font-style: italic;
+}
+
+h2:hover {
+  background-color: rgb(212, 17, 50);
+}
+
+
+h2:active {
+  text-decoration: underline;
+}
+
+.links a:last-child {
+  color: navajowhite;
+}
+
+
+nav ul li:nth-child(odd) {
+  background-color: chartreuse;
+}
+
+
+.paragraphs p:nth-child(3) {
+  color: orange;
+}
+
+input:focus {
+  border: 2px solid hotpink;
+}
